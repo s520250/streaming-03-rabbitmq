@@ -99,8 +99,18 @@ Each of the version 2 programs include an error as well.
 ### Dr. Case's Example
 ![Mac Example](screenshot.png)
 
+NOTE: PNG link works fine in VS Code, but does not show the image in GitHub. Trying an https link to the files in GitHub to see if that will show up in my readme in GitHub.
+
 ### Sammie Bever's Example (v1)
-![Bever Example](BeverScreenshot.png)
+GitHub Link - 
+![Bever Example GitHub](https://github.com/s520250/streaming-03-rabbitmq/blob/main/BeverScreenshot.PNG)
+
+Using file name (PNG) -
+![Bever Example 2 PNG](BeverScreenshot2.png)
 
 ### Sammie Bever's Example (v2)
-![Bever Example 2](BeverScreenshot2.png)
+GitHub Link - 
+![Bever Example 2 GitHub](https://github.com/s520250/streaming-03-rabbitmq/blob/main/BeverScreenshot2.PNG)
+
+Using file name (PNG) -
+![Bever Example 2 PNG](BeverScreenshot2.png)
