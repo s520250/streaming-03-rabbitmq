@@ -1,6 +1,10 @@
 """
     This program sends a message to a queue on the RabbitMQ server.
 
+    Sammie Bever - Streaming Data - Module 03 Assignment - January 22, 2023
+
+    Update your message in the last line of this file.
+
     Author: Denise Case
     Date: January 14, 2023
 
@@ -44,4 +48,4 @@ def send_message(host: str, queue_name: str, message: str):
 # without executing the code below.
 # If this is the program being run, then execute the code below
 if __name__ == "__main__":
-    send_message("llllocalhost","hello","Hello World!")
+    send_message("localhost","hello","Message 3 - Class: Streaming Data.")

@@ -1,3 +1,5 @@
+# Module 03 Assignment - Sammie Bever
+
 # streaming-03-rabbitmq
 
 Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary
@@ -29,7 +31,7 @@ Get started with RabbitMQ, a message broker, that enables multiple processes to 
 1. Read v1_emit_message.py (and the tutorial)
 1. Run the file. 
 
-You'll need to fix an error in the program to get it to run.
+You'll need to fix an error in the program to get it to run. (error = pika module not found; solution: installed pika)
 Once it runs and finishes, we can reuse the terminal.
 
 ## Version 1 - Execute the Consumer/Listener
@@ -37,8 +39,8 @@ Once it runs and finishes, we can reuse the terminal.
 1. Read v1_listen_for_messages.py (and the tutorial)
 1. Run the file.
 
-You'll need to fix an error in the program to get it to run.
-Once it runs successfully, will it terminate on its own? How do you know? 
+You'll need to fix an error in the program to get it to run. - (error: getaddrinfo failed; solution: localhost had an extra 't' in connection line)
+Once it runs successfully, will it terminate on its own? How do you know? No, there was no close() line. Must close using ctrl + c
 As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Version 1 - Open a New Terminal / Emit More Messages
@@ -71,17 +73,17 @@ and a consistent, reusable approach to building code.
 
 Each of the version 2 programs include an error as well. 
 
-1. Find the error and fix it. 
-1. Compare the structure of the version 2 files. 
-1. Modify the docstrings on all your files.
-1. Include your name and the date.
-1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
-1. Then, define your functions.
-1. Functions are reuable logic blocks.
-1. Everything the function needs comes in through the arguments.
-1. A function may - or may not - return a value. 
-1. When we open a connection, we should close the connection. 
+1. Find the error and fix it. Solution: localhost was spelled wrong in the last line of v2_emit_message.py file and v2_listen_for_messages.py file
+1. Compare the structure of the version 2 files. X
+1. Modify the docstrings on all your files. X
+1. Include your name and the date. X
+1. Imports always go at the top, just after the file docstring. X
+1. Imports should be one per line - why? For readability
+1. Then, define your functions. X
+1. Functions are reusable logic blocks. X
+1. Everything the function needs comes in through the arguments. X
+1. A function may - or may not - return a value. X
+1. When we open a connection, we should close the connection. X
 1. Which of the 4 files will always close() the connection?
 1. Search GitHub for if __name__ == "__main__":
 1. How many hits did you get? 
@@ -94,4 +96,11 @@ Each of the version 2 programs include an error as well.
 
 ## Multiple Terminals
 
+### Dr. Case's Example
 ![Mac Example](screenshot.png)
+
+### Sammie Bever's Example (v1)
+![Bever Example](BeverScreenshot.png)
+
+### Sammie Bever's Example (v2)
+![Bever Example 2](BeverScreenshot2.png)
